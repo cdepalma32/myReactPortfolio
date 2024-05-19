@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures maximum space between title and navigation */
+    padding: 0 0px; /* Adjust padding as needed */
+  }
+  
+  header h1 {
+    margin-right: auto; /* Pushes the navigation to the opposite side */
+  }
+  
+  .navbar {
+    width: 50%; /* Limits the navbar to half of the header's width */
+    justify-content: center; /* Centers navbar items within the given width */
+  }
