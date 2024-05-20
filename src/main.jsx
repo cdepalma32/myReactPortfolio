@@ -1,7 +1,7 @@
 // import React from 'react', necessary libraries & components
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+import './../src/App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 

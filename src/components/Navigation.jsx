@@ -5,7 +5,7 @@ function Navigation() {
   const currentPage = useLocation().pathname;
 
 return (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ display: 'flex', justifyContent: 'center' }}>
+  <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ display: 'flex', justifyContent: 'center'}}>
     <div className="collapse navbar-collapse" id="navbarNav" style={{ justifyContent: 'center' }}>
       <ul className="navbar-nav">
         <li className="nav-item">

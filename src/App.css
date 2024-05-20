@@ -13,3 +13,22 @@ header {
     width: 50%; /* Limits the navbar to half of the header's width */
     justify-content: center; /* Centers navbar items within the given width */
   }
+
+  .custom-list-item {
+    border: none !important;
+    background-color: transparent !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    color: white !important;
+}
+
+.custom-heading {
+  font-size: 1.5em; /* Adjust this value as needed */
+  font-weight: bold;
+  color: white; /* Ensure the font color is white */
+}
+
+.bg-custom {
+  background-color: #348cb8
+}
