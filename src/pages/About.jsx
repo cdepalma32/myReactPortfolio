@@ -14,7 +14,7 @@ function About() {
             <br />
             <br />
             <br/>
-            <br/>
+            <br/> 
             <h2 style={{ textAlign: 'center' }}>About Me</h2>
             <br/>
             <br/>
