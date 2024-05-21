@@ -1,34 +1,44 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Ensures maximum space between title and navigation */
-    padding: 0 0px; /* Adjust padding as needed */
-  }
-  
-  header h1 {
-    margin-right: auto; /* Pushes the navigation to the opposite side */
-  }
-  
-  .navbar {
-    width: 50%; /* Limits the navbar to half of the header's width */
-    justify-content: center; /* Centers navbar items within the given width */
-  }
+/* Import the desired font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-  .custom-list-item {
-    border: none !important;
-    background-color: transparent !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin: 0 !important;
-    color: white !important;
+/* Apply the font globally */
+body {
+  font-family: 'Courier-BoldOblique', monospace;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures maximum space between title and navigation */
+  padding: 0 0px; /* Adjust padding as needed */
+}
+
+header h1 {
+  margin-right: auto; /* Pushes the navigation to the opposite side */
+}
+
+.navbar {
+  width: 50%; /* Limits the navbar to half of the header's width */
+  justify-content: center; /* Centers navbar items within the given width */
+}
+
+.custom-list-item {
+  font-family: 'Courier-BoldOblique', monospace;
+  border: none !important;
+  background-color: transparent !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+  color: white !important;
 }
 
 .custom-heading {
+  font-family: 'Courier-BoldOblique', monospace;
   font-size: 1.5em; /* Adjust this value as needed */
   font-weight: bold;
   color: white; /* Ensure the font color is white */
 }
 
 .bg-custom {
-  background-color: #348cb8
+  background-color: #348cb8;
 }

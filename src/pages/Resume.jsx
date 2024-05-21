@@ -4,7 +4,11 @@ function Resume() {
     return (
         <div className="container-fluid text-white py-5 bg-custom">
             <div className="container">
-                <h1 className="text-center">Resume</h1>
+                <h1 className="text-center" style={{ 
+                            fontFamily: 'Courier New, Courier, monospace', 
+                            fontWeight: 'bold',  
+                            textAlign: 'center'
+                        }}> Resume</h1>
                 <div className="card mb-3 text-white" style={{
                     backgroundImage: `url('/assets/img/resume card.webp')`,
                     backgroundSize: 'cover',
@@ -18,7 +22,7 @@ function Resume() {
                         <br />
                         <br />
                         <br />
-
+                        
                         <h6 className="card-subtitle mb-2 custom-heading">Front End Skills</h6>
                         <ul className="list-group list-group-flush mb-3 no-border">
                             <li className="list-group-item custom-list-item">HTML</li>

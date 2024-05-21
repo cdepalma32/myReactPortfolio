@@ -15,7 +15,11 @@ function About() {
             <br />
             <br/>
             <br/> 
-            <h2 style={{ textAlign: 'center' }}>About Me</h2>
+            <h1 className="text-center" style={{ 
+                            fontFamily: 'Courier New, Courier, monospace', 
+                            fontWeight: 'bold',  
+                            textAlign: 'center'
+                        }}>About Me</h1>
             <br/>
             <br/>
             <div style={{ textAlign: 'center' }}>

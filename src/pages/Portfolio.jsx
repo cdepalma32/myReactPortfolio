@@ -5,7 +5,7 @@ function Portfolio() {
         <div>
             <br />
             <br />
-            <h3>Portfolio</h3>
+            <h3 className="text-center">Portfolio</h3>
             <br/>
             <br/>
             <div className="row row-cols-1 row-cols-md-2 g-4 container-fluid text-white py-5 bg-custom">
